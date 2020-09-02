@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Advance Search</title>
+    <style>
+        .adv-btn {
+        font-family: arial;
+        font-size: 16px;
+        color: white;
+        background: #3385ff;
+        border: none;
+        border-collapse: collapse;
+        border-radius: 10px;
+        padding: 15px 32px;
+        }
+
+        input[type=text] {
+        border: 1px solid black;
+        border-radius: 6px;
+        height: 25px;
+        outline: none;
+        float: center;
+        padding: 5px 8px;
+        color: black;
+        font-size: 16px;
+        transition: 0;
+        line-height: 10px;
+        width: 500px;
+        text-align: left;
+        margin: 1px 12px;
+        }
+        .variety-src {
+        font-family: arial;
+        }
+    </style>
+</head>
+    <h3 style="text-align:left; font-size: 30px; font-family:arial; background-color: #f0f5f5; margin:0; height:50px;">
+        <span style='color:#3385ff'>G</span><span style='color:#e60000'>o</span><span style='color:#ffcc00'>o</span><span style='color:#3385ff'>g</span><span style='color:#00b33c'>l</span><span style='color:#e60000'>e</span>
+    </h3>
+    <h3 style="color:#e60000; font-family:arial;">Advanced Search</h3>
+    <h3 style="font-family:arial; font-size: 16px; color:#808080;"> Find pages with...</h3>
+<div class="table-search">
+    <form class="variety-src" action="https://google.com/search">
+             All these words:<input type="text" name="as_q" >
+            <br><br>Exact word/phrase<input type="text" name="as_epq" >
+            <br><br>Any of these words<input type="text" name="as_oq" >
+            <br><br>None of these words<input type="text" name="as_eq" >
+           <br><br> <input class="adv-btn" type="submit" value="Advanced Search">
+</form>
+</div>
+</body>
+</html>
